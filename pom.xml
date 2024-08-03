@@ -27,7 +27,7 @@
         <url/>
     </scm>
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
         <solace-spring-boot.version>2.0.0</solace-spring-boot.version>
     </properties>
     <dependencies>
