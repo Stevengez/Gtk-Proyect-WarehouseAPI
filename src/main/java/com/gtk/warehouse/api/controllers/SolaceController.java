@@ -13,7 +13,7 @@ public class SolaceController {
     @Autowired
     private SolaceService solaceService;
 
-    @GetMapping(value = "/live", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "/api/v1/live", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public SseEmitter getLiveEvents(){
         return solaceService.addEmitter();
     }
