@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class status {
 
-    @GetMapping(value = "/status")
+    @GetMapping(value = "/api/v1/status")
     public APIStatus getAPIStatus() {
         return new APIStatus("ok");
     }
